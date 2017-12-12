@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-   return "Welcome!"
+   return "Welcome to my website!"
 
 @app.route("/landing")
 def landing():
